@@ -1,0 +1,57 @@
+
+/* Global styles
+-----------------------------------------------*/
+body {
+  background: #F6EFE9;}
+
+img {
+  width: 300px;
+  height: 400px;
+}
+a {
+  color: #F6EFE9;
+}
+
+
+/* Divergent Doodles
+-----------------------------------------------*/
+header {
+   background-color: #DABCB2;
+}
+a:hover {
+  text-decoration: none;
+}
+/* projects
+-----------------------------------------------*/
+.projects {
+  background: #DBCFD3;
+}
+/*.projects a {
+
+} */
+.projects .botton {
+  color: #F6EFE9;
+  background: #C38A77;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.project .botton:hover {
+  background: rgba(195, 138, 119, 60%);
+}
+/* what's new
+-----------------------------------------------*/
+.new {
+  background: #C38A77;
+}
+/* Coming Soon
+-----------------------------------------------*/
+.coming-soon {
+  background: #C2B5BD;
+}
+/* contact
+-----------------------------------------------*/
+footer {
+  background: #877978;
+  color: #F6EFE9;
+}
