@@ -2,7 +2,13 @@
 /* Global styles
 -----------------------------------------------*/
 body {
-  background: #F6EFE9;}
+  background: #F6EFE9;
+  margin: 0;
+  padding: 0;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 15px;
+  line-height: 1.5;
+}
 
 img {
   width: 300px;
@@ -12,14 +18,62 @@ a {
   color: #F6EFE9;
 }
 
+h2{
+  margin: 0;
+}
+h1, h2{
+  line-height: 1;
+  font-family:  'Rock Salt', cursive;
+  letter-spacing: 5px;
+}
+.content-wrap {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 
 /* Divergent Doodles
 -----------------------------------------------*/
 header {
-   background-color: #DABCB2;
+  background: #C38A77
 }
 a:hover {
   text-decoration: none;
+}
+header {
+  padding: 80px 0 60px 0;
+}
+.neon{
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0 20px;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 0 20px  #9f5984;
+}
+.neon:after {
+  content:attr(data-text);
+  position:absolute;
+  top: 0;
+  left:0;
+  padding: 0 20px;
+  z-index: -1;
+  color: #fdc4e7;
+  filter: blur(15px);
+}
+.neon:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #9f5984;
+  z-index: -2;
+  opacity: .5;
+  filter: blur(50px);
 }
 /* projects
 -----------------------------------------------*/
@@ -35,14 +89,29 @@ a:hover {
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
+  display: inline-block;
 }
-.project .botton:hover {
-  background: rgba(195, 138, 119, 60%);
+.projects .botton:hover {
+  background: rgba(195, 138, 119, 80%);
+}
+
+.project-item {
+overflow: hidden;
+border-bottom: 10px dotted #877978;
+padding: 25px 0;
+}
+
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+.project-item h3 {
+  margin-top: 0;
 }
 /* what's new
 -----------------------------------------------*/
 .new {
-  background: #C38A77;
+  background-color:  #DABCB2;
 }
 /* Coming Soon
 -----------------------------------------------*/
